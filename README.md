@@ -2,21 +2,21 @@
 
 <div align="center"><br/>
   <div style="display: inline-block;">
-    <img align="center" alt="stars" src="https://img.shields.io/github/stars/letfritz/DER-SmartCampus">
-    <img align="center" alt="watchers" src="https://img.shields.io/github/watchers/letfritz/DER-SmartCampus">
-    <img align="center" alt="forks" src="https://img.shields.io/github/forks/letfritz/DER-SmartCampus">
+    <img align="center" alt="stars" src="https://img.shields.io/github/stars/letfritz/OLTC-changer">
+    <img align="center" alt="watchers" src="https://img.shields.io/github/watchers/letfritz/OLTC-changer">
+    <img align="center" alt="forks" src="https://img.shields.io/github/forks/letfritz/OLTC-changer">
   </div>
   <div style="display: inline-block;">
-    <img align="center" alt="downloads" src="https://img.shields.io/github/downloads/letfritz/DER-SmartCampus/total.svg">
-    <img align="center" alt="issues" src="https://img.shields.io/github/issues/letfritz/DER-SmartCampus/total.svg">
-    <img align="center" alt="issues-closed" src="https://img.shields.io/github/issues-closed/letfritz/DER-SmartCampus/total.svg">
-    <img align="center" alt="issues-pr" src="https://img.shields.io/github/issues-pr/letfritz/DER-SmartCampus/total.svg">
-    <img align="center" alt="issues-pr-closed" src="https://img.shields.io/github/issues-pr-closed/letfritz/DER-SmartCampus/total.svg">
-    <img align="center" alt="issues-pr-closed" src="https://img.shields.io/github/license/letfritz/DER-SmartCampus.svg">
+    <img align="center" alt="downloads" src="https://img.shields.io/github/downloads/letfritz/OLTC-changer/total.svg">
+    <img align="center" alt="issues" src="https://img.shields.io/github/issues/letfritz/OLTC-changer/total.svg">
+    <img align="center" alt="issues-closed" src="https://img.shields.io/github/issues-closed/letfritz/OLTC-changer/total.svg">
+    <img align="center" alt="issues-pr" src="https://img.shields.io/github/issues-pr/letfritz/OLTC-changer/total.svg">
+    <img align="center" alt="issues-pr-closed" src="https://img.shields.io/github/issues-pr-closed/letfritz/OLTC-changer/total.svg">
+    <img align="center" alt="issues-pr-closed" src="https://img.shields.io/github/license/letfritz/OLTC-changer.svg">
   </div>
 </div><br/>
 
-OpenDSS code to analyze the potential impacts of on-load TAP-changers (OLTC) in transformers in industries located in distribution networks  with a signiﬁcant presence of photovoltaic distributed generation (PVDG).
+OpenDSS code to analyze the potential impacts of on-load TAP-changers (OLTC) in transformers in industries located in distribution networks  with a significant presence of photovoltaic distributed generation (PVDG).
 
 ## 📷 Screenshot
 IEEE  8500-node network illustrating the allocation of industries and voltage regulators:
