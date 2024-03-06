@@ -1,0 +1,4 @@
+New Monitor.LN5742836-1_voltage     element=line.LN5742836-1     terminal=1     mode=0 ! Barra M1009807
+New Monitor.LN6047561-1_voltage     element=line.LN6047561-1     terminal=1     mode=0 ! Barra M1069154
+New Monitor.LN6381858-1_voltage     element=line.LN6381858-1     terminal=1     mode=0 ! Barra M1209774
+New Monitor.LN6290203-1_voltage     element=line.LN6290203-1     terminal=1     mode=0 ! Barra M1069424

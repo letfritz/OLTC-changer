@@ -1,0 +1,46 @@
+! REV 2
+!----------------------------------------------------------------------------------------------------------------------------
+! OpenDSS script to control the running of the IEEE 4800-bus Distrubution Test Feeder
+! Unbalanced Load Case
+!----------------------------------------------------------------------------------------------------------------------------
+
+! To execute, select one or more line and right-click, select Do Selected
+!  1. Select from Compile through Solve and execute
+!  2. Select one or more of the statements to display results and execute
+
+!----------------------------------------------------------------------------------------------------------------------------
+
+! Edit the path name to indicate the correct location of the Master file.
+
+Compile (Master-unbal.dss)     ! unbalanced load master
+
+New Energymeter.m1 Line.ln5815900-1 1
+
+
+New Monitor.m1 Line.ln5815900-1 1
+
+! --------------- ALTERADO --------------------
+! Monitor para a potência e tensão nas barras onde entrou PV ao longo do tempo
+Redirect MonitorPower.dss
+Redirect MonitorVoltage.dss
+
+!Set Maxiterations=20     ! Sometimes the solution takes more than the default 15 iterations
+
+Set mode = daily
+Set stepsize = 30s
+Set number = 1621
+
+! ---------------------------------------------------
+
+Solve
+
+! show eventlog
+
+! --------------- ALTERADO --------------------
+! export seqvoltage ! extrair desequilibrio de tensao em cada componente da rede
+! export losses ! perda no instante set number
+! export meters ! perdas globais em todos os instantes de tempo
+! export monitor all
+! export seqvoltage ! tensão seq pos e neg
+
+! -----------------------------------------------------

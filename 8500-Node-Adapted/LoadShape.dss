@@ -1,0 +1,4 @@
+
+new Loadshape.LoadShape_PV1  npts=1621 sinterval=30  mult=(File="Carga2-gen.csv") Action=Normalize
+new Loadshape.LoadShape_ind  npts=1621 sinterval=30  mult=(File="Carga_ind.csv") Action=Normalize !UseActual=yes
+new Loadshape.LoadShape_cons  npts=1621 sinterval=30  mult=(File="Carga_cons.csv") Action=Normalize 
